@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Computer_Shop"
         tools:targetApi="31">
         <activity
+            android:name=".toreceive"
+            android:exported="false" />
+        <activity
+            android:name=".shippingoption"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".accountinformationdetails"
+            android:exported="false" />
+        <activity
+            android:name=".accountinformation"
+            android:exported="false" />
+        <activity
+            android:name=".showdetailsmyaddress"
+            android:exported="false" />
+        <activity
+            android:name=".myaddress"
+            android:exported="false" />
+        <activity
             android:name=".payment_select"
             android:exported="false" />
         <activity
