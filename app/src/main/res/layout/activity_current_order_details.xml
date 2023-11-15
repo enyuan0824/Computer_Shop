@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".currentOrderDetails">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/staff" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDER DETAILS"
+        android:textSize="50dp"
+        android:fontFamily="@font/antonregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Customer ID:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textAlignment="viewEnd">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABC012345"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textAlignment="viewEnd">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jalan Mewah 21"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textAlignment="viewEnd">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="601123456549"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textAlignment="viewEnd">
+        </TextView>
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="monospace"
+            android:text="jonna@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Order:"
+            android:textSize="25dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/antonregular">
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:layout_marginTop="-30dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <!--Table heading-->
+                <TableRow android:background="#504099">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="Product Name"
+                        android:textColor="@color/white"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="Quantity"
+                        android:textColor="@color/white"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:text="Price"
+                        android:textColor="@color/white"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <!--Table data-->
+                <TableRow android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="Computer 1"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="10"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"></TextView>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="Computer 1"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="10"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"></TextView>
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="Computer 1"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="10"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"></TextView>
+
+                </TableRow>
+
+            </TableLayout>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#f4b0c7"
+            android:text="Confirm Order"
+            android:textSize="18dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"></Button>
+
+        <Button
+            android:id="@+id/buttonCancelOrder"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#f4b0c7"
+            android:text="Cancel Order"
+            android:textSize="18dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-50dp"></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

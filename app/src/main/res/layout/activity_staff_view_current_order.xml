@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".staffViewCurrentOrder">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/staff" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CURRENT ORDER"
+                android:textSize="50dp"
+                android:fontFamily="@font/antonregular"
+                android:textColor="@color/black"
+                android:layout_marginTop="-100dp"
+                android:layout_marginLeft="20dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name:"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textViewGetCustomerName_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jonna"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp">
+                </TextView>
+
+                <Button
+                    android:id="@+id/buttonViewOrder"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="View"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#f4b0c7">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name:"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textViewGetCustomerName_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jonna"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp">
+                </TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="View"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#f4b0c7">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name:"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textViewGetCustomerName_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jonna"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp">
+                </TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="View"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#f4b0c7">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name:"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textViewGetCustomerName_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jonna"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp">
+                </TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="View"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#f4b0c7">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name:"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textViewGetCustomerName_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jonna"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp">
+                </TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="View"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#f4b0c7">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name:"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textViewGetCustomerName_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jonna"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp">
+                </TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="View"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#f4b0c7">
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
